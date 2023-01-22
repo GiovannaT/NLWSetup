@@ -1,6 +1,7 @@
+import './lib/dayjs';
+import "./styles/globals.css";
 import { Header } from "./components/Header";
 import { SummaryTable } from "./components/SummaryTable";
-import "./styles/globals.css";
 
 
 export function App() {

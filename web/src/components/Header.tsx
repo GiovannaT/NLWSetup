@@ -22,7 +22,7 @@ export function Header() {
             <Dialog.Overlay className="w-screen h-screen bg-black/80 fixed inset-0" />
 
             <Dialog.Content className="absolute p-10 bg-zinc-900 rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <Dialog.Close className="absolute r-6 t-6 text-zinc-400 hover:text-zinc-200">
+              <Dialog.Close className="flex r-6 t-6 text-zinc-400 hover:text-zinc-200">
                 <BsX className="w-10 h-10" aria-label="Fechar" />
               </Dialog.Close>
 
